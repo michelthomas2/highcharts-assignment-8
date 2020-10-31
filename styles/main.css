@@ -1,0 +1,91 @@
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'Merriweather', ' Garamond''Verdana', sans-serif;
+  margin: 0;
+  width: 100%;
+  align-content: center;
+}
+
+header {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 2em;
+  margin: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.5em;
+}
+#graph {
+  background: #a8e8ff;
+  padding: 3em;
+  padding-top: 1em;
+  margin: 0;
+}
+
+#graph2 {
+  background: #5598b2;
+  padding: 3em;
+  padding-top: 1em;
+  margin: 0;
+}
+
+#economics {
+  background: #d2f4ff;
+  padding: 3em;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.2em;
+}
+
+#container {
+  background: #a8e8ff;
+  padding: 3em;
+  padding-bottom: 0em;
+  margin: 0;
+  height: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#container2 {
+  background: #5598b2;
+  padding: 3em;
+  padding-bottom: 0em;
+  margin: 0;
+  height: 500px;
+  width: 100%;
+  align-content: center;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    padding: 1em;
+    font-size: 1.4em;
+  }
+
+  #container {
+    padding: 1em;
+  }
+
+  #container2 {
+    padding: 1em;
+  }
+
+  #economics {
+    padding: 1em;
+    font-size: 1.1em;
+  }
+
+  #graph {
+    padding: 1em;
+  }
+
+  #graph2 {
+    padding: 1em;
+  }
+}
